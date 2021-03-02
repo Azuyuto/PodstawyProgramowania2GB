@@ -38,11 +38,11 @@ void print(int (&tablica)[5]) // TABLICA
         cout<<tablica[i]<<" ";
     cout<<endl;
 }
-void print(Ulamek liczba) // U£AMEK
+void print(Ulamek liczba) // UÂ£AMEK
 {
     cout<<liczba.licznik<<"/"<<liczba.mianownik<<endl;
 }
-void print(Ulamek &liczba) // REFERNCJA DO U£AMKA
+void print(Ulamek &liczba) // REFERNCJA DO UÂ£AMKA
 {
     cout<<liczba.licznik<<"/"<<liczba.mianownik<<endl;
 }
@@ -99,6 +99,5 @@ string castdToD(string s)
 
 int main()
 {
-    castdToD("dupa");
     return 0;
 }
